@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Välj videor
+Exec=/home/mattias/välj-videor.py
+Icon=video-x-generic
+Terminal=false
+Type=Application
