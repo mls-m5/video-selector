@@ -161,7 +161,7 @@ def start_vlc(playlist_path: str) -> None:
             "Kunde inte hitta VLC i PATH. Installera VLC eller lägg 'vlc' i PATH."
         )
 
-    subprocess.Popen([vlc_path, playlist_path])
+    subprocess.Popen([vlc_path, "--play-and-exit", playlist_path])
 
 
 def parse_args() -> argparse.Namespace:
